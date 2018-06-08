@@ -1,0 +1,256 @@
+
+#banner{
+	height: 480px;
+	position:relative;
+    overflow:hidden;
+    width:100%;
+}
+#banner ul{
+	position:absolute;
+    left:50%;
+    margin-left:-980px;
+}
+#banner ul li{
+	height: 480px;
+	position:absolute;
+	/*left:0;
+	top:0;
+	right:0;*/
+	transition:all 1s;
+	opacity: 0;
+	transform: scale(0);
+}
+#banner ul li.active{
+	opacity: 1;
+	transform: scale(1);
+}
+#banner ul li img{
+	border:0;
+}
+#banner .page{
+	position:absolute;
+	left:50%;
+	bottom:20px;
+	transform: translate(-50%,0);
+}
+#banner .page span{
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	border-radius: 50%;
+	cursor:pointer;
+	background: url('../img/page.jpg') no-repeat 0 0 ;
+	margin:0 5px;
+}
+#banner .page span.change{
+	background:#fd7400;
+}
+
+
+#content{
+	padding-bottom: 50px;
+}
+
+
+#content .listTop{
+	margin-top: 30px;
+	height: 40px;
+	line-height: 40px;
+	width: 100%;
+	border:1px solid #ddd;
+}
+#content .listTop .listTop-l{
+	
+}
+
+#content .listTop .listTop-l ul li{
+	float:left;
+	text-align: center;
+}
+#content .listTop .listTop-l ul li:nth-child(1){
+	width: 35px;
+	height: 40px;
+	font-size: 14px;
+	font-weight: bold;
+	padding-left:5px;
+}
+#content .listTop .listTop-l ul li:nth-child(2){
+	width: 70px;
+	margin:0 10px;
+	background-color: #ddd;
+	position:relative;text-align: center;
+	font-size: 13px;
+	color: #000;
+	cursor:pointer;
+}	
+#content .listTop .listTop-l ul li:nth-child(2) i{
+	display: block;
+	position:absolute;
+	right:10px;top:14px;
+	width: 10px;
+	height: 10px;
+	background:url('../img/list-arr.jpg') no-repeat;
+}
+#content .listTop .listTop-l ul li:nth-child(3){
+	padding-right:10px;
+}
+#content .listTop .listTop-l ul li:nth-child(3) .money{
+	width: 40px;
+	height: 18px;
+	line-height: 18px;
+	border:1px solid #ddd;
+}
+#content .listTop .listTop-l ul li:nth-child(4){
+	padding-right:10px;
+}
+#content .listTop .listTop-l ul li:nth-child(4) .check{
+	margin:-2px 5px 0 15px;
+}
+
+#content .listTop .listTop-c{
+	border-left:1px solid #ddd;
+	height: 35px;
+	line-height: 40px;
+	margin-left: 10px;
+	padding-left: 10px;
+	padding-top: 5px;
+	overflow: hidden;
+}
+#content .listTop .listTop-c .search{
+	width: 250px;
+	height: 18px;
+	border:1px solid #ddd;
+	padding:5px 10px;
+	font-size: 12px;
+	float: left;
+}
+#content .listTop .listTop-c button{
+	float: left;
+	width: 40px;
+	height: 30px;
+	background-color: #FD7400;
+	line-height: 30px;
+	text-align: center;
+	color:#fff;
+}
+
+
+
+
+#goodslist{
+	
+}
+#goodslist li{
+	float:left;
+	margin:20px 10px 0 11px;
+	width: 220px;
+	height: 340px;
+	position:relative;
+
+}
+#goodslist li:hover{
+	border:1px solid #eee;
+	margin:19px 9px -1px 10px;
+	box-shadow:0 0 7px #eee;
+}
+#goodslist li:hover .buyCar{
+	display: block;
+}
+#goodslist li img{
+	width: 220px;
+	height: 220px;
+}
+#goodslist li h6{
+	/*overflow: hidden;*/
+}
+#goodslist li h6 a{
+	font-size: 12px;
+	line-height: 20px;
+	padding-left: 5px;
+    color: #000;
+}
+#goodslist li h6 i{
+	display: block;
+	float: left;
+	background: url('../img/list_hot.jpg') no-repeat;
+	width: 53px;
+	margin-top: 3px;	
+	height: 15px;
+}
+#goodslist li .price::before{
+	content:"￥";
+}
+#goodslist li .price{
+	color: #fd7400;
+	font-size: 17px;
+	position:absolute;
+	left:2px;bottom:60px;
+}
+#goodslist li .number span::after{
+	content:"+";
+}
+#goodslist li .number{
+	color: #ccc;
+	position:absolute;
+	right:5px;bottom:62px;
+	font-size: 13px;
+}
+#goodslist li .number span{
+	color: #fd7400;
+	font-size: 14px;
+	margin-right: -5px;
+}
+#goodslist li .buyCar{
+	width: 120px;
+	height: 40px;
+	background-color: #fd7400;
+	border-radius: 5px;
+	line-height: 40px;
+	font-size: 15px;
+	text-align: center;
+	color: #fff;
+	position:absolute;
+	left:50%;
+	bottom:10px;
+	transform:translate(-50%,0);
+	cursor:pointer;
+	display: none;
+
+}
+
+
+#content .output{
+	float: left;
+}
+#content .topPage button,#content .listPage button{
+	text-align: center;
+	height: 28px;
+	line-height: 24px;
+	padding:2px 5px;
+	background-color: #fff;
+	border:1px solid #ddd;
+	margin-right: 10px;
+	color: #5A5D5A;
+	font-size: 12px;
+	cursor: pointer;
+}
+#content .topPage button:hover{
+	color:#9fbe06;
+}
+#content .listPage button:hover{
+	color:#9fbe06;
+}
+#content .topPage .output,#content .listPage .output{
+	padding-right: 10px;	
+}
+#content .topPage .output span,#content .listPage .output span{
+	color:#D33537;
+	font-weight: bold;
+}
+
+#content .listPage{
+	float: right;
+	margin-top: 30px;
+	height: 40px;
+	line-height: 40px;
+}

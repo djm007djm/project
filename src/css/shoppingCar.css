@@ -1,0 +1,170 @@
+#content .payMoney {
+  height: 70px;
+  border-bottom: 1px #e0e0e0 solid;
+  margin: 10px 0px;
+  background: #f0f0f0;
+  color: #333;
+  overflow: hidden; }
+  #content .payMoney .left {
+    float: left;
+    line-height: 70px; }
+    #content .payMoney .left input {
+      margin: 0 10px; }
+    #content .payMoney .left span {
+      margin: 0 10px; }
+  #content .payMoney .right {
+    float: right; }
+    #content .payMoney .right div {
+      float: left;
+      line-height: 70px;
+      width: 100px;
+      text-align: center; }
+    #content .payMoney .right .goodsAllPrice {
+      font-size: 24px;
+      font-weight: bold; }
+    #content .payMoney .right .goPay {
+      color: #fff;
+      font-size: 24px;
+      background: #fd7400; }
+
+#content .allNumber {
+  padding: 10px;
+  padding-left: 280px;
+  margin: 10px 0px 0px 0px;
+  background: #fdf3eb;
+  border-bottom: 1px #e0e0e0 solid;
+  height: 70px; }
+  #content .allNumber .draw {
+    float: left;
+    width: 335px;
+    padding: 15px 10px;
+    color: #fff;
+    background: url(../img/shoppingCar.jpg) no-repeat right 10px;
+    height: 25px;
+    margin-top: 10px;
+    overflow: hidden; }
+    #content .allNumber .draw span {
+      float: left;
+      margin-top: 4px; }
+    #content .allNumber .draw .free {
+      display: block;
+      width: 60px;
+      background: #FFF;
+      color: #333;
+      padding: 2px 10px;
+      margin-left: 30px;
+      margin-top: 2px; }
+  #content .allNumber .allQty div, #content .allNumber .allPrice div {
+    width: 140px;
+    padding: 5px;
+    text-align: center;
+    color: #333; }
+  #content .allNumber .allQty {
+    float: right;
+    padding-top: 10px; }
+    #content .allNumber .allQty .goodsQty {
+      color: #ff0000;
+      font-weight: bold; }
+  #content .allNumber .allPrice {
+    float: right;
+    padding-top: 10px; }
+    #content .allNumber .allPrice .goodsAllPrice {
+      color: #ff0000;
+      font-weight: bold; }
+
+#content .content_top {
+  width: 1186px;
+  height: 40px;
+  padding: 0px 10px;
+  border-bottom: 1px solid #ccc; }
+  #content .content_top div {
+    float: left;
+    line-height: 40px;
+    text-align: center; }
+  #content .content_top .choose {
+    width: 600px;
+    text-align: left; }
+    #content .content_top .choose .check {
+      margin-right: 10px; }
+
+#content .list_price {
+  width: 100px; }
+
+#content .list_num {
+  width: 160px; }
+
+#content .list_totle {
+  width: 120px; }
+
+#content .list_W {
+  width: 100px; }
+
+#content .list_do {
+  width: 100px; }
+
+#content #goodsCar .goodsName {
+  overflow: hidden;
+  width: 585px; }
+  #content #goodsCar .goodsName img {
+    width: 80px;
+    height: 80px;
+    border: 1px solid #ccc;
+    float: left;
+    margin: 5px 20px 0 50px; }
+  #content #goodsCar .goodsName h5 {
+    float: left;
+    font-size: 13px; }
+
+#content #goodsCar .goodsPrice, #content #goodsCar .allPrice {
+  color: #ff0000;
+  font-weight: bold; }
+
+#content #goodsCar .goodsNum {
+  overflow: hidden;
+  text-align: center;
+  height: 70px;
+  line-height: 100px;
+  padding-top: 37px;
+  width: 125px;
+  padding-left: 35px; }
+  #content #goodsCar .goodsNum button {
+    float: left;
+    width: 25px;
+    height: 25px;
+    border: 1px  solid #ccc;
+    background-color: #fff;
+    cursor: pointer; }
+  #content #goodsCar .goodsNum input {
+    float: left;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    height: 23px;
+    line-height: 25px;
+    text-align: center;
+    width: 40px; }
+
+#content #goodsCar .doing {
+  overflow: hidden;
+  height: 70px;
+  width: 100px;
+  line-height: 0;
+  padding-top: 30px; }
+  #content #goodsCar .doing span {
+    display: block;
+    float: left;
+    width: 100px;
+    height: 20px;
+    cursor: pointer;
+    margin: 5px 0; }
+
+#content #goodsCar li {
+  text-align: center;
+  overflow: hidden;
+  height: 90px;
+  padding: 10px;
+  border-bottom: 1px #e0e0e0 solid; }
+  #content #goodsCar li div {
+    float: left;
+    text-align: center;
+    height: 100px;
+    line-height: 100px; }

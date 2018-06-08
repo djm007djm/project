@@ -1,0 +1,102 @@
+#login_bg{position:fixed;width: 100%;height: 100%;z-index: -100;}
+#login{position:fixed;left:50%;top:50%;transform:translate(-50%,-50%);width: 380px;height: 510px;padding:15px 40px;background-color: rgba(0,0,0,.2);}
+#login ul{
+	color:#fff;
+}
+#login ul li{
+	width: 100%;
+	overflow: hidden;
+}
+#login ul li div{
+	float:left;
+}
+#login .loginOne{
+	height: 40px;
+	line-height: 40px;
+}
+#login .loginOne h2{
+	float:left;
+	font-size: 28px;
+	font-weight: normal;
+}
+#login .loginOne div:nth-child(2){
+	float:right;
+}
+#login .loginOne a{
+	color: #FD7400;
+}
+#login .loginOne a:hover{
+	color:#fff;
+}
+#login .classOne{
+	width: 39px;height: 40px;
+	padding:12px 0 0 16px;
+	background-color: #aaa;
+    position:relative;
+}
+#login .code{
+	width: 55px;height: 52px;
+	text-align: center;
+	line-height: 52px;
+	font-weight: bold;
+}
+#login .input{
+	height: 30px;
+    line-height: 30px;
+    color: #333;
+    font-size: 16px;
+    padding: 10px;
+    width: 300px;
+    border: 1px solid #dedede;
+}
+#login .verify{
+	height: 30px;
+    line-height: 30px;
+    color: #c9c9c9;
+    font-size: 16px;
+    padding: 10px;
+    width: 120px;
+}
+#login .margin_b{
+	margin-bottom: 25px;
+    position:relative;
+}
+#login .forget{
+	overflow: hidden;
+	font-weight: bold;
+	margin:-5px 0 5px 0;
+}
+#login .forget a{
+	color: #fff;
+	font-weight: normal;
+	text-decoration:underline;
+}
+#login button{
+	width: 380px;
+	height: 52px;
+	background-color: #FD7400;
+	text-align: center;
+	line-height: 52px;
+	margin:5px 0;
+	font-size: 20px;
+	cursor: pointer;
+}
+#login .way{
+	overflow: hidden;
+	padding-left:108px;
+	padding-top:10px;
+}
+#login .way li{
+	width: 40px;
+	height: 40px;
+	margin-left: 10px;
+	float: left;
+}
+.correct{
+    width: 40px;
+    height: 40px;
+    background: url('../img/TrueFalse.jpg') no-repeat;
+    position:absolute;
+    top:7px;right:0px;
+    display: none;
+}

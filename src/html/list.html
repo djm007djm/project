@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>依谷网-首家面向白领家庭农、副食品网，提供进口水果网购、有机蔬菜、非转基因食品、提供包月配送、特色预订、企业团购服务</title>
+	<meta content="依谷、水果、进口水果、生鲜、蔬菜、肉类、禽蛋、网购、大闸蟹、礼品卡、礼盒、农产品、批发、绿色食品、健康" name="Keywords"/>
+	<meta content="农产品购物网站,提供进口水果、礼盒以及水果团购服务以及新鲜、优质、高档、绿色、健康无公害等日常农副食品，倡导低碳生活，提升生活品质，保障食品安全" name="Description"/>
+
+	<link rel="stylesheet" href="../css/base.css">
+	<link rel="stylesheet" href="../css/common.css">
+	<link rel="stylesheet" href="../css/list.css">
+
+
+	<script src="../js/require.js" data-main ="../js/listPage.js"></script>
+
+	<script src="../js/list.js"></script>
+</head>
+<body>
+	<!-- 模块   右侧导航+头部 -->
+		<bsheader></bsheader>	
+
+		<!-- 轮播图 -->
+		<div id="banner">
+			<ul>
+				<li style="z-index: 1;"><a href="#"><img src="../img/banner1.jpg"></a></li>
+				<li><a href="#"><img src="../img/banner2.jpg"></a></li>
+				<li><a href="#"><img src="../img/banner3.jpg"></a></li>
+				<li><a href="#"><img src="../img/banner4.jpg"></a></li>
+				<li><a href="#"><img src="../img/banner5.jpg"></a></li>
+			</ul>
+			<div class="page" style="z-index: 2;"></div>
+		</div>
+			
+		<!-- 商品 -->
+		<div id="content">
+			<div class="container clearfix">
+				<div class="listTop clearfix">
+					<div class="listTop-l fl">
+						<ul class="clearfix">
+							<li>排序:</li>
+							<li id="price">价格<i></i></li>
+							<li>
+								筛选：
+								<input type="text" placeholder="￥" class="money"> -
+								<input type="text" placeholder="￥" class="money">
+							</li>
+							<li>
+								<input type="checkbox" class="check">限时优惠
+								<input type="checkbox" class="check">新品上市
+							</li>
+						</ul>
+					</div>
+					<div class="listTop-c fl">
+						<input type="text" placeholder="请输入商品名称" class="search">
+						<button>确定</button>
+					</div>
+					<!-- 上面页数 -->
+					<div class="listTop-r fr">
+						<div class="topPage">
+							<div class="output"></div>
+							<button class="prev"><上一页</button>
+							<button class="next">下一页></button>
+						</div>
+
+					</div>
+				</div>
+				<!-- 商品 -->
+				<ul id="goodslist" class="clearfix">
+					
+				</ul>
+				<!-- 下面页数 -->
+				<div class="listPage">
+					<div class="output"></div>
+					<button class="homePage">首页</button>
+					<button class="prev"><上一页</button>
+					<button class="next">下一页></button>
+					<button class="endPage">尾页</button>
+				</div>
+			</div>
+		</div>
+		
+
+
+
+
+
+		
+		<!-- 模块   底部 -->
+		<bsfooter></bsfooter>	
+
+</body>
+</html>
