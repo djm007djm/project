@@ -2,10 +2,9 @@ require.config({
 	// baseUrl:"js",
 	paths:{
 		'jquery':'jquery-3.3.1',
+        
 		'bass':'bass',
 		'common':'common',
-		'index':'index',
-		'list':'list',
 		'detail':'detail',
 		// 一个组件 一个模块
 		'bsheader':'../extendss/bsheader/header',
@@ -13,24 +12,18 @@ require.config({
 	},
 	shim: {
              "bass": {
-                 deps: ["jquery"],//设置依赖
+                 deps: ["jquery","bsheader"],//设置依赖
              },
-             "index": {
-                 deps: ["jquery"],//设置依赖
-             },
-             "list": {
+             "bsheader": {
                  deps: ["jquery"],//设置依赖
              },
              "detail": {
-                 deps: ["jquery","bass"],//设置依赖
-             },
-             "common": {
-                 deps: ["jquery"],//设置依赖
+                 deps: ["jquery"]//设置依赖
              }
         }
 })
 
-require(['jquery','bass','common','detail','bsheader','bsfooter'],function($,bass,common,detail,bsheader,bsfooter){
+require(['jquery','bsheader','bsfooter','bass','common','detail'],function($,bsheader,bsfooter,bass,common,detail){
 	$("bsheader").bsheader();
 	$("bsfooter").bsfooter();
 })

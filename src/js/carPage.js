@@ -4,8 +4,6 @@ require.config({
         'jquery':'jquery-3.3.1',
         'bass':'bass',
         'common':'common',
-        'index':'index',
-        'list':'list',
         'shoppingCar':'shoppingCar',
         // 一个组件 一个模块
         'bsheader':'../extendss/bsheader/header',
@@ -13,24 +11,18 @@ require.config({
     },
     shim: {
         "bass": {
-            deps: ["jquery"],//设置依赖
+            deps: ["jquery","bsheader"],//设置依赖
         },
-        "index": {
-            deps: ["jquery"],//设置依赖
-        },
-        "list": {
+        "bsheader": {
             deps: ["jquery"],//设置依赖
         },
         "shoppingCar": {
-            deps: ["jquery","bass"],//设置依赖
-        },
-        "common": {
-            deps: ["jquery"],//设置依赖
-        }
+            deps: ["jquery"]//设置依赖
+        }   
     }
 })
 
-require(['jquery','bass','common','shoppingCar','bsheader','bsfooter'],function($,bass,common,shoppingCar,bsheader,bsfooter){
+require(['jquery','bsheader','bsfooter','bass','common','shoppingCar'],function($,bsheader,bsfooter,bass,common,shoppingCar){
     $("bsheader").bsheader();
     $("bsfooter").bsfooter();
 })
