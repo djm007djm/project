@@ -59,8 +59,8 @@ define(['jquery'], function($) {
 						<li><i></i><a href="http://localhost:12345/">收藏依谷网</a></li>
 					</ul>
 					<ul class="fr">
-						<li class="w-70"><a href="html/login.html">登录</a></li>
-						<li class="w-80"><a href="#">免费注册</a></li>
+						<li class="w-70"><a href="login.html">登录</a></li>
+						<li class="w-80"><a href="register.html">免费注册</a></li>
 						<li class="w-70"><a href="../html/shoppingCar.html">购物车</a></li>
 						<li id="concern">
 							<i></i>
